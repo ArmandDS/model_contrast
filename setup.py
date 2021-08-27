@@ -12,7 +12,7 @@ setup(
     author='Armand Olivares',
     author_email='armandds@users.noreply.github.com',
     license='MIT',
-    url='https://github.com/armandds/model-contrast',
+    url='https://github.com/ArmandDS/model_contrast',
     packages=find_packages(exclude="tests"),
     install_requires=[
         'numpy>=1.19.0',
