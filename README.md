@@ -74,6 +74,14 @@ model2.fit(X_train, y_train)
 
 
 ```
+Compare them:
+
+```python
+from model_contrast import classificator_contrast
+
+classificator_contrast(model1, model2, X_test, y_test)
+
+```
 and it returns:
 
 ![image](https://github.com/ArmandDS/model_contrast/blob/main/img/multiclass.PNG)
@@ -100,6 +108,14 @@ model2 = LinearRegression()
 model1.fit(X_train, y_train)
 model2.fit(X_train, y_train)
 
+
+```
+Compare them:
+
+```python
+from model_contrast import  regressor_contrast
+
+regressor_contrast(model1, model2, X_test, y_test)
 
 ```
 and it returns:
