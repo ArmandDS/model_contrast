@@ -8,7 +8,7 @@ A simple package for comparer the performance of two ML models in sklearn, pytho
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install model-contrast.
 
 ```bash
 pip install model-contrast
