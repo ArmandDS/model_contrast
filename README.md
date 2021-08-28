@@ -77,7 +77,7 @@ model2.fit(X_train, y_train)
 ```
 and it returns:
 
-![image](https://github.com/ArmandDS/model_contrast/blob/main/img/multiclass.png)
+![image](https://github.com/ArmandDS/model_contrast/blob/main/img/multiclass.PNG)
 
 
 ## Compare 2 Regressors
@@ -105,7 +105,7 @@ model2.fit(X_train, y_train)
 ```
 and it returns:
 
-![image](https://github.com/ArmandDS/model_contrast/blob/main/img/regressors.png)
+![image](https://github.com/ArmandDS/model_contrast/blob/main/img/regressors.PNG)
 
 
 ## Contributing
