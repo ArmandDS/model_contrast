@@ -49,7 +49,7 @@ classificator_contrast(model1, model2, X_test, y_test)
 ```
 and it return: 
 
-![image](https://github.com/armandds/model-contrast/blob/main/img/binary.png?raw=True)
+![image](https://github.com/armandds/model_contrast/blob/main/img/binary.png?raw=True)
 
 ## Compare Multi-Class Classifiers
 
@@ -76,7 +76,7 @@ model2.fit(X_train, y_train)
 ```
 and it returns:
 
-![image](https://github.com/armandds/model-contrast/blob/main/img/multiclass.png?raw=True)
+![image](https://github.com/armandds/model_contrast/blob/main/img/multiclass.png?raw=True)
 
 
 ## Compare 2 Regressors
@@ -104,7 +104,7 @@ model2.fit(X_train, y_train)
 ```
 and it returns:
 
-![image](https://github.com/armandds/model-contrast/blob/main/img/regressors.png?raw=True)
+![image](https://github.com/armandds/model_contrast/blob/main/img/regressors.png?raw=True)
 
 
 ## Contributing
