@@ -5,7 +5,7 @@ README_MD = open(join(dirname(abspath(__file__)), "README.md")).read()
 
 setup(
     name='model contrast',
-    version='0.1.7',
+    version='0.1.8',
     description='Compare two ML models.',
     long_description=README_MD,
     long_description_content_type="text/markdown",
