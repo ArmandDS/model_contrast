@@ -1,4 +1,4 @@
-![workflow](https://github.com/ArmandDS/model_contrast/actions/test_and_upload_to_TestPyPI.yml)
+[![Test & Upload to TestPyPI](https://github.com/ArmandDS/model_contrast/actions/workflows/test_and_upload_to_TestPyPI.yml/badge.svg)](https://github.com/ArmandDS/model_contrast/actions/workflows/test_and_upload_to_TestPyPI.yml)
 [![License: MIT]](https://img.shields.io/github/license/armandds/model_contrast)
 
 
