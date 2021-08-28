@@ -123,7 +123,9 @@ def _comparator(model1:ClassifierMixin,
 
     if isbinary:
         pvalue, stac = mcnemar_test(models_predictions[0], models_predictions[1], label_data)
-        mn_row = mn_row1 = mn_row2 = [""]*len(table.columns)
+        mn_row = [""]*len(table.columns)
+        mn_row1 = [""]*len(table.columns)
+        mn_row2 = [""]*len(table.columns)
         mn_row[0] = "The McNemar's Test:"
         mn_row1[0]  = "p-value"
         mn_row1[1]  = pvalue
