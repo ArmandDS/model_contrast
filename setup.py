@@ -5,7 +5,7 @@ README_MD = open(join(dirname(abspath(__file__)), "README.md")).read()
 
 setup(
     name='model contrast',
-    version='0.1.4',
+    version='0.1.5',
     description='Compare two ML models.',
     long_description=README_MD,
     long_description_content_type="text/markdown",
@@ -17,7 +17,7 @@ setup(
     install_requires=[
         'numpy>=1.19.0',
         'pandas>=1.1.5',
-        'statsmodels>=0.10.2',
+        'statsmodels>=0.12.2',
         'scipy>=1.4.1',
         'scikit-learn>=0.22.2'
     ],
