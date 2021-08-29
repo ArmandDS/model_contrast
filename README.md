@@ -52,6 +52,20 @@ and it return:
 
 ![image](https://github.com/ArmandDS/model_contrast/blob/main/img/binary.PNG)
 
+**For binary classifiers it computes:**
+- The prediction time
+- The model's memory allocation
+- The Accuracy
+- The Roc AUC score
+- The F1-Score
+- Precision
+- Recall
+- The Jaccard Score
+- The Matthews Correlation
+- The Concordance
+- The Discordance
+- Somer D
+- The McNemar's test for compare the classifier
 
 ## Compare Multi-Class Classifiers
 
@@ -88,6 +102,21 @@ and it returns:
 
 ![image](https://github.com/ArmandDS/model_contrast/blob/main/img/multiclass.PNG)
 
+**For multiclass classifiers it computes:**
+- The prediction time
+- The model's memory allocation
+- The Accuracy
+- The Roc AUC weighted
+- The Roc AUC Macro
+- The F1 weighted
+- The F1 Macro
+- The Precision weighted
+- The Precision Macro
+- The Recall weighted
+- The Recall Macro
+- The Jaccard Score
+- The Matthews Correlation
+
 
 ## Compare 2 Regressors
 
@@ -117,13 +146,30 @@ Compare them:
 ```python
 from model_contrast import  regressor_contrast
 
-regressor_contrast(model1, model2, X_test, y_test)
+regressor_contrast(model1, model2, X_test, y_test, threshold=10)
 
 ```
 and it returns:
 
 ![image](https://github.com/ArmandDS/model_contrast/blob/main/img/regressors.PNG)
 
+
+**For regression models it computes:**
+- The prediction time
+- The model's memory allocation
+- The R2
+- The MAE
+- The RMSE
+- The Explained Variance
+- The F1 Macro
+- The Shapiro test over residuals
+- The D'agostino test over residuals
+- The Ratio of prediction between certain value
+
+The Ratio of prediction between certain value: it refers for example, you want to know how many preditions has errors below a threshold (for example below 100, it depends of the problem of course), useful to get a idea about the model behavior.
+
+## To do
+Add support for another ML frameworks, not just scikit-learn.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
