@@ -161,7 +161,6 @@ and it returns:
 - The MAE
 - The RMSE
 - The Explained Variance
-- The F1 Macro
 - The Shapiro test over residuals
 - The D'agostino test over residuals
 - The Ratio of prediction between certain value
