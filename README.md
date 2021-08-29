@@ -166,7 +166,7 @@ and it returns:
 - The D'agostino test over residuals
 - The Ratio of prediction between certain value
 
-The Ratio of prediction between certain value: it refers for example, you want to know how many preditions has errors below a threshold (for example below 100, it depends of the problem of course), useful to get a idea about the model behavior.
+__The Ratio of prediction between certain value:__ it refers for example, you want to know how many preditions has errors below a threshold (for example below 100, it depends of the problem of course), useful to get a idea about the model behavior.
 
 ## To do
 Add support for another ML frameworks, not just scikit-learn.
